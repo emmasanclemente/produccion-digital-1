@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Home</title>
+</head>
+<body class="body-index">
+    <header>
+         <nav>
+        <div class="contenedor">
+            <ul class="hijo">
+                 <li>
+                  <a href="../index.html">Home</a>
+                 </li>
+            </ul> 
+            <ul class="hijo">
+                 <li>
+                     <a href="../produccion-digital-1/pages/carrito.html">Carrito</a>
+                 </li>
+             </ul>
+            
+             <ul class="hijo">
+                 <li>
+                     <a href="../produccion-digital-1/pages/sobre-nosotros.html">Sobre Nosotros</a>
+                 </li>
+             </ul> 
+             <ul class="hijo">
+                 <li>
+                 <a href="../produccion-digital-1/pages/shop.html">Shop</a>
+                 </li>
+             </ul> 
+         </div>
+    </nav>
+</header>
+    <main>
+
+        <h1 class="titulo-principal">Be and Brew</h1>
+     
+
+        <script>
+            var slides = document.getElementsByClassName("slide");
+            let currentSlide = 0;
+             
+            function showSlide(index) {
+              const slides = document.querySelectorAll('.slide');
+              const totalSlides = slides.length;
+             
+              if (index >= totalSlides) {
+                currentSlide = 0;
+              } else if (index < 0) {
+                currentSlide = totalSlides - 1;
+              } else {
+                currentSlide = index;
+              }
+             
+              slides.forEach((slide, i) => {
+                slide.style.display = i === currentSlide ? 'block' : 'none';
+              });
+            }
+             
+            function nextSlide() {
+              showSlide(currentSlide + 1);
+            }
+             
+            function prevSlide() {
+              showSlide(currentSlide - 1);
+            }
+             
+            // Cambia automáticamente de diapositiva cada 3 segundos (ajusta según tus necesidades)
+            setInterval(nextSlide, 3000);
+             
+            // Muestra la primera diapositiva al cargar la página
+            showSlide(currentSlide);  
+            </script>
+
+             <div class="caja-slider">
+                <img src="fotos/iced-coffe.jpg" class="slide" >
+                 <img src="fotos/Coffee-Aesthetic.jpg" class="slide">
+                 <a class="prev" onclick="prevSlide()">&#10094;</a>
+                 <a class="next" onclick="nextSlide()">&#10095;</a>
+                </div>
+                 
+        
+          
+
+       
+        <section>
+            
+            <div class="contenedor-main">
+                <div class="caja">
+                    <img class="icono" src="fotos/Benny the Bean.png" alt="foto icono" >
+    
+                
+                    <div class="contenedor-texto"> 
+                    <p class="titulo-secundario">cafe de especialidad</p> 
+                    <p class="texto-principal">
+                        Somos una empresa que busca el poder llevar el placer de un café de calidad alrededor de hogares en todo el mundo.
+                    </p>
+                    <button class="redirect-registro"> 
+                        <a class="boton" href="../produccion-digital-1/pages/shop.html">Empieza tu camino aqui</a>
+                    </button>
+                    <p class="unite">
+                        Unite a mas de 5000 aficionades del cafe
+                    </p>
+                     </div> 
+                      </div>
+                      <img src="fotos/rgb-marron.png" alt="linea marron" class="linea-marron">
+                    <div class="contenedor-img">
+                     
+                     <h2 class="populares">Nuestros productos mas populares</h2>
+                    </div>
+              
+                <div class="productos-home">
+                    
+                   <div>
+                    <img src="fotos/bolsa-cafe-azul.png" alt="foto bolsa cafe azul" class="product">
+                            <div >
+                                <p class="contenedor-descripcion"> Bolsa Cafe Cold brew mix </p>
+                            </div>
+                   </div>
+                    <div>
+                    <img src="fotos/tote.png" alt="foto tote bag" class="product">
+                            <div >
+                                <p class="contenedor-descripcion"> Tote Bag Be & Brew </p>
+                            </div>
+                    </div>
+                    <div>
+                        <img src="fotos/caja.png" alt="foto caja verde" class="product">
+                            <div >
+                                <p class="contenedor-descripcion"> Caja Sorpresa mix </p>
+                            </div>
+                    </div>    
+                        
+        
+                </div>
+            </div>
+        </section>
+        <img src="fotos/rgb-marron.png" alt="linea marron" class="linea-marron">
+        <section>
+            
+            <h3>Unite a Be & Brew!!</h3>
+            
+        </section>
+        <form action="respuesta.html">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+            
+         <div>
+            <label for="email">Correo electrónico:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="tucorreo@example.com">
+         </div>
+            
+         <div>
+            <label for="password">Contraseña</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="12345678">
+         </div>
+            
+         <div>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+         </div>
+
+           <div>
+            <button type="submit">Registrate</button>
+           </div>
+         
+
+        </form>
+        
+        
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+         <h3 >Contactanos</h3>
+       
+         <img src="fotos/instagram.png" alt="instagram logo">
+         <img src="fotos/wpp.png" alt="whatsapp logo">
+         <img src="fotos/Twitter.png" alt="twitter logo">
+         <p>Todos los derechos reservados - 2023 - Be & Brew</p>
+        </div> 
+        
+     </footer>
+</body>
+</html>
