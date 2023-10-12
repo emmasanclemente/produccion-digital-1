@@ -45,7 +45,7 @@ body main .caja-slider .slide{
   height: 50vh;
   width: 160vh;
   object-fit: cover;
-  margin-left: 4rem;
+  margin-left: rem;
   display: none;
 }
  body main section{
