@@ -508,8 +508,9 @@ body main .boton-compra{
 /* estilo iframe*/
 
 body iframe{
- display: flexbox;
-  width: auto;
-  height: auto;
+display: block;
+  width: 728PX;
+  height: 90PX;
   margin-left: 4rem;
+  text-align: center;
 }
