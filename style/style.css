@@ -504,3 +504,12 @@ body main .boton-compra{
     margin-top: 2rem;
   }
 }
+
+/* estilo iframe*/
+
+body iframe{
+ display: flexbox;
+  width: auto;
+  height: auto;
+  margin-left: 4rem;
+}
