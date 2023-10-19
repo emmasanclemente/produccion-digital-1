@@ -507,10 +507,22 @@ body main .boton-compra{
 
 /* estilo iframe*/
 
-body iframe{
+body .iframe{
 display: block;
-  width: 728PX;
-  height: 90PX;
-  margin-left: 4rem;
+  width: 480PX;
+  height: 440PX;
+  margin-left: 2rem;
   text-align: center;
+  margin-bottom: 5rem;
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 728px){
+  body .iframe{
+    margin-left: 22rem;
+    width: 728PX;
+    height: 90PX;
+   
+   
+  }
 }
