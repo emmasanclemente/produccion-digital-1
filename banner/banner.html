@@ -17,41 +17,89 @@
       
         /* Estilos para el banner */
         body{
-            width: 728px;
-            height: 90px;
-            display: block;
+            width: 480px;
+            height: 480px;
         }
         .banner {
-            display: flex;
-            width: 728x;
-            height: 90px;
-            align-items: center;
-            justify-content: space-around;
-            background-color:  #F3DFC1; /* Cambia esto al color que desees */
-            text-align: center;
-            line-height: 90px;
+            display: grid;
+            background-color:  #F3DFC1; 
+            width: 480px;
+            height: 480px;
+           
+           
+            
         }
         
         /* Estilos para el texto en el banner */
-        .banner-text {
-            text-align: center;
-            color: #AA4586;
-             font-family: 'Shrikhand', cursive;/* Cambia esto al color que desees */
-            font-size: 44px; /* Cambia esto al tamaño de fuente que desees */
+        
+         h1{
+            font-family: 'Shrikhand', cursive;
+           color: #AA4586;
+           font-size:70px; 
+           text-align: center;
+           padding: none;
+           margin-top: 0.1rem;
+           margin-bottom: 0.1rem;
+
+            
         }
-        .banner-text img{
-            height: 60px;
+       .boton{
+            text-decoration: none;
+            color: #0F5D33;
+            font-size:50px; 
+            text-align: end ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            margin-top: 0.1rem;
+            margin-right:8rem;
+        }
+
+        img{
+            display: flex;
             align-items: center;
+            height: 40vh;
+            justify-content: center;
+            margin-top: 0.1rem;
+            margin-bottom: 0.1rem;
+            margin-left: 5rem;
+            object-fit: cover;            
+        } 
+
+        @media screen and (min-width: 728px) {
+            .banner{
+                display: flex;
             justify-content: space-around;
+            align-items: center;
+                width: 728px;
+                height: 90px;
+                
+                text-align: center;
+            }
+            h1{
+                font-size: 34px;
+            }
+            .boton{
+                font-size: 24px;
+                margin-right:0.1rem;
+            }
+            img{
+            
+            align-items: center;
+            height: 90px;
+            justify-content: center;
+            margin-left: 0.1rem;
+        } 
         }
     </style>
 </head>
 <body>
     <div class="banner">
-        <div class="banner-text">
-            <img src="../fotos/bolsa-verde.png" alt="foto logo">
-            BE & BREW
-        </div>
+       
+            
+           <h1> Be & Brew</h1>
+           <img src="../fotos/Benny the Bean.jpg" alt="foto logo">
+           <a href="../index.html" class="boton">Conocenos!</a>
+        
     </div>
 
 </body>
