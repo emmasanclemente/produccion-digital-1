@@ -509,8 +509,8 @@ body main .boton-compra{
 
 body .iframe{
 display: block;
-  width: 480PX;
-  height: 440PX;
+  width: 300PX;
+  height: 250PX;
   margin-left: 2rem;
   text-align: center;
   margin-bottom: 5rem;
