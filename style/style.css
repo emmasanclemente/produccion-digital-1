@@ -22,7 +22,7 @@
   body header nav div {
       list-style: none;
       display: flex;
-      gap: 2rem;
+      gap: 1rem;
        }
     body header nav div ul {
         list-style: none;
@@ -112,7 +112,7 @@ body main section div div div button .boton {
       margin-bottom: 0.5rem; }
 
     body main div div div .product {
-      margin-left: 6rem;
+      margin-left: 3rem;
     margin-top: 2rem; }
     body main div div div .contenedor-descripcion {
       font-size: 1.2rem;
@@ -275,7 +275,7 @@ body main section div div div button .boton {
                     justify-content: center; }
                     body main div .contenedor-shop .ftoshop {
                       width: 75vw;
-                      height: 65vh;
+                      height: 55vh;
                       justify-content: center;
                       margin-left: 4rem;
                       margin-top: 1rem; }
@@ -331,10 +331,11 @@ body main section div div div button .boton {
     }
                         
                         body main div .logo {
-                          margin: 2rem;
+                          margin: 4rem;
+                          margin-left: 4rem;
                           object-fit: cover;
-                          height: 60vh;
-                          width: 70vh;
+                          height: 20vh;
+                          width: 50vh;
                           justify-content: center; }
                         
                         body main div .historia {
@@ -416,8 +417,8 @@ body main .section-carrito{
 }
 body main .titulo-carrito{
   font-family: 'Shrikhand', cursive;
-  color: #AA4586;
-  font-size: 3rem;
+  color: #0F5D33;
+  font-size: 2rem;
   text-align: center;
   margin: 1rem; 
 }
@@ -511,7 +512,7 @@ body .iframe{
 display: block;
   width: 300PX;
   height: 250PX;
-  margin-left: 2rem;
+  margin-left: 8rem;
   text-align: center;
   margin-bottom: 5rem;
   background-color: aliceblue;
