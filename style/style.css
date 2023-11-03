@@ -294,7 +294,7 @@ body main section div div div button .boton {
                     justify-content: center; }
                     body main div .contenedor-shop .ftoshop {
                       width: 75vw;
-                      height: 50vh;
+                      height: 45vh;
                       justify-content: center;
                       margin-left: 4rem;
                       margin-top: 1rem;
@@ -353,7 +353,7 @@ body main section div div div button .boton {
                         
                         body main div .logo {
                           margin: 4rem;
-                          margin-left: 4rem;
+                          margin-left: 2rem;
                           object-fit: cover;
                           height: 20vh;
                           width: 50vh;
