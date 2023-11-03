@@ -1,553 +1,548 @@
 
 /*STYLE DE INDEX*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; }
-  
-  body {
-    background-color: #F3DFC1;
-    font-family: 'Overpass', sans-serif;
-   
-  }
-  body header nav{
-    background-color: #0F5D33;
-    color: #F3DFC1;
-    font-size: 1.2rem;
-    padding: 1rem;
-    position: sticky;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-  }
+body {
+  background-color: #F3DFC1;
+  font-family: 'Overpass', sans-serif;
+ 
+}
+body header nav{
+  background-color: #0F5D33;
+  color: #F3DFC1;
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: sticky;
 
-  body header nav div {
+}
+
+body header nav div {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+     }
+  body header nav div ul {
       list-style: none;
       display: flex;
-      gap: 1rem;
+      justify-content: space-evenly;
+      align-items: center;
        }
-    body header nav div ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-         }
-    body header nav div ul li a {
-            text-decoration: none;
-            display: flex;
-            font-style: none;
-            color: #F3DFC1;
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-            }
- body main .caja-slider{
-  display: none;
- }           
+  body header nav div ul li a {
+          text-decoration: none;
+          display: flex;
+          font-style: none;
+          color: #F3DFC1;
+          margin-left: 1.5rem;
+          margin-right: 1.5rem;
+          }
+body main .caja-slider{
+display: none;
+}           
 body main .caja-slider .slide{
-  height: 50vh;
-  width: 160vh;
-  object-fit: cover;
-  margin-left: 4rem;
-  display: none;
+height: 50vh;
+width: 160vh;
+object-fit: cover;
+margin-left: 4rem;
+display: none;
 }
- body main section{
-    display: flex;
- }
- 
-  body main h1{
-    font-family: 'Shrikhand', cursive;
-    color: #AA4586;
-    font-size: 3rem;
-    text-align: center;
-    margin: 1rem;
-  }
-  body main .caja-boton{
-    display: flex;
-    text-align: center;
-    margin-left: 9rem;
-  }
-  body main section div div img {
-    width: 24REM;
-    height: 24REM;
-    object-fit: cover;
-    margin-left: 2rem;
-   }
-
-   .body-index main section div .titulo-secundario{
-    margin: 1.5rem;
-      font-size: 2.5rem;
-      color:#F3DFC1;
-      background-color: #AA4586;
-      font-style: oblique;
-      text-align: center;
-   }
-
-   .body-index main section div .texto-principal {
-    color: #623A26;
-    font-size: 1.5rem;
-    margin: 1.5rem;
+body main section{
+  display: flex;
 }
 
-body main section div div div button{
-  text-align: center;
-}
-body main section div div div button .boton {
-    font-style: none;
-    text-decoration: none;
-    color: #F3DFC1;
-    background-color: #0F5D33;
-    padding: 0.6rem;
-    font-size: 1rem;
-    text-align: center;
-    justify-items: center;
-
-  }
-
-    body main section div div div .unite{
-        color: #623A26;
-        text-align: center;
-        margin: 1.5rem;
-
-    }
-
-  
-
-    body main div div .populares {
-      margin-top: 5rem;
-      font-size: 1.7rem;
-      color: #0F5D33;
-      text-align: center;
-      margin-bottom: 0.5rem; }
-
-    body main div div div .product {
-      margin-left: 3rem;
-    margin-top: 2rem; }
-    body main div div div .contenedor-descripcion {
-      font-size: 1.2rem;
-     
-      margin-bottom: 2rem;
-      color: #623A26;
-    text-align: center; }
-
-    body form h3{
-      display: flex;
-      text-align: center;
-      font-family: 'Shrikhand', cursive;
-      color: #AA4586;
-      font-size: 2rem;
-      margin: 2rem;
-     }
-
-     body form{
-      font-size: 1.5rem;
-      margin-left: 2rem;
-      color: #6d3f2b;
-     }
-
-     body form div{
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-     }
-     body form div input{
-      display: inline-flex;
-      font-size: 1.5rem;
-      margin-top: 1rem;
-     }
-     body form div textarea{
-      display: inline-flex;
-      font-size: 1.5rem;
-      margin-top: 1rem;
-     }
-
-     body form div button{
-      font-style: none;
-    text-decoration: none;
-    color: #F3DFC1;
-    background-color: #0F5D33;
-    padding: 0.6rem;
-    font-size: 1rem;
-    margin-left: 11rem;
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-     }
-
-    body footer {
-      background-color: #0F5D33;
-      color: #F3DFC1;
-       }
-      body footer div {
-        margin-top: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem; }
-        body footer div h3 {
-          padding: 1rem;
-        ; }
-        body footer div img {
-          height: 7vh;
-          margin-bottom: 2rem;
-          margin-left: 0.3rem;
-          margin-right: 0.3rem; }
-        body footer div p {
-          text-align: center;
-          padding-bottom: 2rem;
-       }
-
-       
-
-          @media screen and (min-width: 1200px) {
-            body main .caja-slider {
-              display: contents;
-            }
-            body main .caja-slider a{
-              display: none;
-            }
-            body main .titulo-principal {
-              font-size: 5rem; }
-            body main .contenedor-main {
-              margin-top: 4rem; }
-              body main .contenedor-main .caja img{
-                width: 35rem;
-                height: 35rem;
-              }
-              body main .contenedor-main .caja {
-
-                margin: 0rem 7rem 0rem;
-                display: grid;
-                gap: 7rem;
-                grid-template-columns: 40% 40%;
-                grid-template-rows: 40%;
-                grid-template-areas: "cafe foto", "texto foto", "boton foto", "unite foto"; }
-                body main .contenedor-main .caja div {
-                  margin-top: 1rem; }
-                body main .contenedor-main .caja .contenedor-texto .titulo-secundario {
-                  font-size: 4rem; }
-                body main .contenedor-main .caja .contenedor-texto .texto-principal {
-                  font-size: 2rem; }
-                body main .contenedor-main .caja .contenedor-texto button {
-                  margin-left: 6rem;
-                  padding: 0.4rem;
-                  background-color: #0F5D33;
-                  font-size: 2rem;
-                  margin-top: 2rem;
-                  margin-bottom: 2rem;
-                  align-items: center;
-                 }
-                body main .contenedor-main .caja .contenedor-texto p {
-                  text-align: center;
-                  margin-bottom: 2rem; 
-                font-size: 1.8rem;}
-              body main .contenedor-main div .populares {
-                text-align: center;
-                margin-top: 9rem;
-                margin-bottom: 2rem; }
-              body main .contenedor-main .productos-home {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: auto;
-                grid-template-areas: "img img img"; }
-                body main .contenedor-main .productos-home div {
-                  margin-bottom: 2rem; }
-                  body main .contenedor-main .productos-home div .product {
-                    grid-area: img;
-                    height: 50vh;
-                    width: 30vw;
-                    display: grid;
-                    margin-bottom: 1rem;
-                  margin-left: 1rem; }
-                
-                 
-                  body form{
-                    text-align: center;
-
-                    
-                   }
-                   body form h3{
-                    margin-left: 44rem;
-                    font-size: 3rem;
-                   }
-                   body form div button{
-                    margin-left: 0rem;
-                    
-                   }}
-
-/* STYLE DE SHOP*/
-
- * {
-     margin: 0;
-    padding: 0;
-    box-sizing: border-box; }
-    body main .nombre{
-      font-family: 'Shrikhand', cursive;
-      color: #AA4586;
-      font-size: 3rem;
-      text-align: center;
-      margin: 1rem;}
-                    
-                    
-                  
-                  body main .nuestros-productos {
-                    margin-bottom: 2rem;
-                    text-align: center;
-                    margin-top: 3rem;
-                    color: #22413b;
-                    font-style: italic; }
-                  
-                  body main div .contenedor-shop {
-                    justify-content: center; }
-                    body main div .contenedor-shop .ftoshop {
-                      width: 75vw;
-                      height: 45vh;
-                      justify-content: center;
-                      margin-left: 4rem;
-                      margin-top: 1rem;
-                    margin-bottom: 0.5rem; }
-                      
-                    body main div .contenedor-shop .descripcion-producto {
-                      text-align: center;
-                      font-size: 1.3rem;
-                      color: #6d3f2b;
-                     
-                      margin-bottom: 2.5rem; }
-                  
-                  @media screen and (min-width: 1200px) {
-                    main .nombre {
-                      color: #6d3f2b; }
-                    main .nuestros-productos {
-                      margin-bottom: 3rem;
-                      text-align: center;
-                      margin-top: 3rem;
-                      color: #22413b;
-                      font-style: italic; }
-                    main .div-shop {
-                      justify-content: center;
-                      display: grid;
-                      grid-template-columns: repeat(3, 1fr);
-                      grid-template-rows: 25%;
-                      grid-template-areas: "img img img "; }
-                      main .div-shop .contenedor-shop .ftoshop {
-                        width: 25vw;
-                        height: 45vh;
-                        grid-area: img;
-                        justify-items: center;
-                        justify-content: center;
-                        margin-bottom: 0.5rem; }
-                      main .div-shop .contenedor-shop .descripcion-producto {
-                        text-align: center;
-                        font-size: 1rem;
-                        text-decoration: underline;
-                        color: #6d3f2b;
-                        margin-bottom: 3rem; } }
-
-/*STYLE DE SOBRE NOSOTROS*/
- body main h1 {
+body main h1{
   font-family: 'Shrikhand', cursive;
   color: #AA4586;
   font-size: 3rem;
   text-align: center;
-  margin: 1rem; }
+  margin: 1rem;
+}
+body main .caja-boton{
+  display: flex;
+  text-align: center;
+  margin-left: 9rem;
+}
+body main section div div img {
+  width: 24REM;
+  height: 24REM;
+  object-fit: cover;
+  margin-left: 2rem;
+ }
 
-    body main .sobre-nosotros{
-      color: #0F5D33;
-      text-align: center;
-      font-size: 1.5rem;
-      font-family: 'Overpass', sans-serif;
-    }
-                        
-                        body main div .logo {
-                          margin: 4rem;
-                          margin-left: 2rem;
-                          object-fit: cover;
-                          height: 20vh;
-                          width: 50vh;
-                          justify-content: center; }
-                        
-                        body main div .historia {
-                          margin-left: 2rem;
-                          margin-right: 2rem;
-                          text-align: justify;
-                          color: whitesmoke;
-                          background-color: #6d3f2b;
-                          font-size: 1.5rem;
-                          padding: 1rem; }
-
-                          body main div div .img-benny-sobre-nosotros{
-                            display: none;
-                          }
-                        
-@media screen and (min-width: 780px) {
-                          .body-sobre-nosotros{
-                            display: grid;
-                          }
-                          .body-sobre-nosotros main .sobre-nosotros {
-                            text-align: center;
-                            font-size: 9rem; }
-                          
-                            .body-sobre-nosotros main div div .logo {
-                              grid-area: logo;
-                              margin-left: 1rem; 
-                              display: none;
-                            
-                          object-fit: cover;
-                          height: 40vh;
-                          width: 50vh;
-                          justify-content: center;}
-                            .body-sobre-nosotros main div div .historia {
-                              
-                          margin-right: 9rem;
-                          text-align: justify;
-                          color: whitesmoke;
-                          background-color: #6d3f2b;
-                          font-size: 1rem;
-                          padding: 0.5rem; 
-                              grid-area: p;
-                               }
-                            .body-sobre-nosotros main div div img {
-                              margin-left: 1rem;
-                              height: 60vh; } }
-
-
- @media screen and (min-width: 1200px) {
-  .body-sobre-nosotros main .sobre-nosotros {
+ .body-index main section div .titulo-secundario{
+  margin: 1.5rem;
+    font-size: 2.5rem;
+    color:#F3DFC1;
+    background-color: #AA4586;
+    font-style: oblique;
     text-align: center;
-    font-size: 2rem; }
-  .body-sobre-nosotros main div {
-    display: grid;
-    
-    grid-template-columns: 1fr 2fr ; 
-    grid-gap: 20px; /* Espacio entre las columnas */
+ }
 
+ .body-index main section div .texto-principal {
+  color: #623A26;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
+body main section div div div button{
+text-align: center;
+}
+body main section div div div button .boton {
+  font-style: none;
+  text-decoration: none;
+  color: #F3DFC1;
+  background-color: #0F5D33;
+  padding: 0.6rem;
+  font-size: 1rem;
+  text-align: center;
+  justify-items: center;
+
+}
+
+  body main section div div div .unite{
+      color: #623A26;
+      text-align: center;
+      margin: 1.5rem;
+
+  }
+
+
+
+  body main div div .populares {
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    color: #0F5D33;
+    text-align: center;
+    margin-bottom: 0.5rem; }
+
+  body main div div div .product {
+    margin-left: 3rem;
+  margin-top: 2rem; }
+  body main div div div .contenedor-descripcion {
+    font-size: 1.2rem;
+   
+    margin-bottom: 2rem;
+    color: #623A26;
+  text-align: center; }
+
+  body form h3{
+    display: flex;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    color: #AA4586;
+    font-size: 2rem;
+    margin: 2rem;
+   }
+
+   body form{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #6d3f2b;
+   }
+
+   body form div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+   body form div input{
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+   }
+   body form div textarea{
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+   }
+
+   body form div button{
+    font-style: none;
+  text-decoration: none;
+  color: #F3DFC1;
+  background-color: #0F5D33;
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-left: 11rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+   }
+
+  body footer {
+    background-color: #0F5D33;
+    color: #F3DFC1;
      }
-    .body-sobre-nosotros main div div .logo {
-      display: grid;
-      margin-left: 3rem;
-    height: 34rem;
-  width: 34rem; }
-    .body-sobre-nosotros main div div .historia {
-      align-content: center;
-      align-self: center;
-      align-items: center;
-     font-size: 1.7rem;
-      margin-bottom: 2rem; }
-    .body-sobre-nosotros main div div img {
-      margin-top: 5rem;
-      margin-left: 5rem;
-      height: 60vh;
-    display: grid; } }
+    body footer div {
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+      body footer div h3 {
+        padding: 1rem;
+      ; }
+      body footer div img {
+        height: 7vh;
+        margin-bottom: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem; }
+      body footer div p {
+        text-align: center;
+        padding-bottom: 2rem;
+     }
+
+     
+
+        @media screen and (min-width: 1200px) {
+          body main .caja-slider {
+            display: contents;
+          }
+          body main .caja-slider a{
+            display: none;
+          }
+          body main .titulo-principal {
+            font-size: 4rem; }
+          body main .contenedor-main {
+            margin-top: 4rem; }
+            body main .contenedor-main .caja img{
+              width: 30rem;
+              height: 30rem;
+            }
+            body main .contenedor-main .caja {
+
+              margin: 0rem 7rem 0rem;
+              display: grid;
+              gap: 7rem;
+              grid-template-columns: 45% 45%;
+              grid-template-rows: 40%;
+              grid-template-areas: "cafe foto", "texto foto", "boton foto", "unite foto"; }
+              body main .contenedor-main .caja div {
+                margin-top: 1rem; }
+              body main .contenedor-main .caja .contenedor-texto .titulo-secundario {
+                font-size: 3rem; }
+              body main .contenedor-main .caja .contenedor-texto .texto-principal {
+                font-size: 2rem; }
+              body main .contenedor-main .caja .contenedor-texto button {
+               justify-self: center;
+                padding: 0.4rem;
+                background-color: #0F5D33;
+                font-size: 2rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                align-items: center;
+               }
+              body main .contenedor-main .caja .contenedor-texto p {
+                text-align: center;
+                margin-bottom: 2rem; 
+              font-size: 1.8rem;}
+            body main .contenedor-main div .populares {
+              text-align: center;
+              margin-top: 9rem;
+              margin-bottom: 2rem; }
+            body main .contenedor-main .productos-home {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: auto;
+              grid-template-areas: "img img img"; }
+              body main .contenedor-main .productos-home div {
+                margin-bottom: 2rem; }
+                body main .contenedor-main .productos-home div .product {
+                  grid-area: img;
+                  height: 50vh;
+                  width: 30vw;
+                  display: grid;
+                  margin-bottom: 1rem;
+                margin-left: 1rem; }
+              
+               
+                body form{
+                  text-align: center;
+
+                  
+                 }
+                 body form h3{
+                  margin-left: 27rem;
+                  font-size: 3rem;
+                 }
+                 body form div button{
+                  margin-left: 0rem;
+                  
+                 }}
+
+/* STYLE DE SHOP*/
+
+* {
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  body main .nombre{
+    font-family: 'Shrikhand', cursive;
+    color: #AA4586;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;}
+                  
+                  
+                
+                body main .nuestros-productos {
+                  margin-bottom: 2rem;
+                  text-align: center;
+                  margin-top: 3rem;
+                  color: #22413b;
+                  font-style: italic; }
+                
+                body main div .contenedor-shop {
+                  justify-content: center; }
+                  body main div .contenedor-shop .ftoshop {
+                    width: 75vw;
+                    height: 50vh;
+                    justify-content: center;
+                    margin-left: 4rem;
+                    margin-top: 1rem;
+                  margin-bottom: 0.5rem; }
+                    
+                  body main div .contenedor-shop .descripcion-producto {
+                    text-align: center;
+                    font-size: 1.3rem;
+                    color: #6d3f2b;
+                   
+                    margin-bottom: 2.5rem; }
+                
+                @media screen and (min-width: 1200px) {
+                  main .nombre {
+                    color: #6d3f2b; }
+                  main .nuestros-productos {
+                    margin-bottom: 3rem;
+                    text-align: center;
+                    margin-top: 3rem;
+                    color: #22413b;
+                    font-style: italic; }
+                  main .div-shop {
+                    justify-content: center;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: 25%;
+                    grid-template-areas: "img img img "; }
+                    main .div-shop .contenedor-shop .ftoshop {
+                      width: 25vw;
+                      height: 45vh;
+                      grid-area: img;
+                      justify-items: center;
+                      justify-content: center;
+                      margin-bottom: 0.5rem; }
+                    main .div-shop .contenedor-shop .descripcion-producto {
+                      text-align: center;
+                      font-size: 1rem;
+                      text-decoration: underline;
+                      color: #6d3f2b;
+                      margin-bottom: 3rem; } }
+
+/*STYLE DE SOBRE NOSOTROS*/
+body main h1 {
+font-family: 'Shrikhand', cursive;
+color: #AA4586;
+font-size: 3rem;
+text-align: center;
+margin: 1rem; }
+
+  body main .sobre-nosotros{
+    color: #0F5D33;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+  }
+                      
+                      body main div .logo {
+                        margin: 4rem;
+                        margin-left: 2rem;
+                        object-fit: cover;
+                        height: 20vh;
+                        width: 50vh;
+                        justify-content: center; }
+                      
+                      body main div .historia {
+                        margin-left: 2rem;
+                        margin-right: 2rem;
+                        text-align: justify;
+                        color: whitesmoke;
+                        background-color: #6d3f2b;
+                        font-size: 1.5rem;
+                        padding: 1rem; }
+
+                        body main div div .img-benny-sobre-nosotros{
+                          display: none;
+                        }
+                      
+@media screen and (min-width: 780px) {
+                        .body-sobre-nosotros{
+                          display: grid;
+                        }
+                        .body-sobre-nosotros main .sobre-nosotros {
+                          text-align: center;
+                          font-size: 9rem; }
+                        
+                          .body-sobre-nosotros main div div .logo {
+                            grid-area: logo;
+                            margin-left: 1rem; 
+                            display: none;
+                          
+                        object-fit: cover;
+                        height: 40vh;
+                        width: 50vh;
+                        justify-content: center;}
+                          .body-sobre-nosotros main div div .historia {
+                            
+                        margin-right: 9rem;
+                        text-align: justify;
+                        color: whitesmoke;
+                        background-color: #6d3f2b;
+                        font-size: 1rem;
+                        padding: 0.5rem; 
+                            grid-area: p;
+                             }
+                          .body-sobre-nosotros main div div img {
+                            margin-left: 1rem;
+                            height: 60vh; } }
+
+
+@media screen and (min-width: 1200px) {
+.body-sobre-nosotros main .sobre-nosotros {
+  text-align: center;
+  font-size: 2rem; }
+.body-sobre-nosotros main div {
+  display: grid;
+  
+  grid-template-columns: 1fr 2fr ; 
+  grid-gap: 10px; /* Espacio entre las columnas */
+
+   }
+  .body-sobre-nosotros main div div .logo {
+    display: grid;
+   
+  height: 34rem;
+width: 34rem; }
+  .body-sobre-nosotros main div div .historia {
+   
+   font-size: 1.7rem;
+    margin-bottom: 2rem;
+  max-height: 600px; }
+}
 
 /* estilo de carrito*/
 body main .section-carrito{
-  display: flex;
+display: flex;
 }
 body main .titulo-carrito{
-  font-family: 'Shrikhand', cursive;
-  color: #0F5D33;
-  font-size: 2rem;
-  text-align: center;
-  margin: 1rem; 
+font-family: 'Shrikhand', cursive;
+color: #0F5D33;
+font-size: 2rem;
+text-align: center;
+margin: 1rem; 
 }
 body main .linea-marron{
-  height: 0.5rem;
-  width: 87%;
-  margin: 2rem;
+height: 0.5rem;
+width: 87%;
+margin: 2rem;
 }
 body main section .producto-carrito{
-  display: grid;
-  grid-template-columns: 5fr 5fr;
-  grid-template-rows: 100%;
+display: grid;
+grid-template-columns: 5fr 5fr;
+grid-template-rows: 100%;
 }
 body main section div div .img-carrito{
-  height: 80%;
-  width: 80%;
+height: 80%;
+width: 80%;
 }
 
 body main section .div-carrito div p{
-  font-size: 1rem;
-  text-align: justify;
-  margin-left: 3rem;
-  margin-top: 1rem;
-  margin-right: 3rem;
-  text-decoration: underline;
-  
+font-size: 1rem;
+text-align: justify;
+margin-left: 3rem;
+margin-top: 1rem;
+margin-right: 3rem;
+text-decoration: underline;
+
 
 }
 body main section div div .eliminar{
-  background-color: #0F5D33;
-  color: #F3DFC1;
-  font-size: 1rem;
-  font-style: italic;
-  padding: 0.2rem;
-  margin-left: 5rem;
-  margin-top: 0.3rem;
+background-color: #0F5D33;
+color: #F3DFC1;
+font-size: 1rem;
+font-style: italic;
+padding: 0.2rem;
+margin-left: 5rem;
+margin-top: 0.3rem;
 }
 
+body main .boton-compra{
+background-color: #AA4586;
+font-size: 1.5rem;
+color: #F3DFC1;
+padding: 0.4rem;
+margin-left: 8rem;
+margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1200px){
+body main .linea-marron{
+  height: 0.5rem;
+  width: 95%;
+  margin: 2rem;
+} 
+body main .titulo-carrito{
+  margin-top: 2rem;
+}
+body main section div div .img-carrito{
+  height: 90%;
+  width: 90%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
 body main .boton-compra{
   background-color: #AA4586;
   font-size: 1.5rem;
   color: #F3DFC1;
   padding: 0.4rem;
-  margin-left: 8rem;
-  margin-bottom: 2rem;
+  margin-left: 35rem;
 }
+body main .section-carrito .div-carrito .producto-carrito div p{
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 9rem;
+  margin-top: 8rem;
+  margin-right: 3rem;
+  text-decoration: underline;
 
-@media screen and (min-width: 1200px){
-  body main .linea-marron{
-    height: 0.5rem;
-    width: 95%;
-    margin: 2rem;
-  } 
-  body main .titulo-carrito{
-    margin-top: 2rem;
-  }
-  body main section div div .img-carrito{
-    height: 90%;
-    width: 90%;
-    margin-left: 5rem;
-    margin-top: 1rem;
-  }
-  body main .boton-compra{
-    background-color: #AA4586;
-    font-size: 1.5rem;
-    color: #F3DFC1;
-    padding: 0.4rem;
-    margin-left: 35rem;
-  }
-  body main .section-carrito .div-carrito .producto-carrito div p{
-    font-size: 2rem;
-    text-align: center;
-    margin-left: 9rem;
-    margin-top: 8rem;
-    margin-right: 3rem;
-    text-decoration: underline;
-  
-  }
-  body main section div div .eliminar{
-    background-color: #0F5D33;
-    color: #F3DFC1;
-    font-size: 1.3rem;
-    font-style: italic;
-    padding: 0.3rem;
-    margin-right: 0.01rem;
-    margin-left: 20rem;
-    margin-top: 2rem;
-  }
+}
+body main section div div .eliminar{
+  background-color: #0F5D33;
+  color: #F3DFC1;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding: 0.3rem;
+  margin-right: 0.01rem;
+  margin-left: 20rem;
+  margin-top: 2rem;
+}
 }
 
 /* estilo iframe*/
 
 body .iframe{
 display: block;
-  width: 300PX;
-  height: 250PX;
-  margin-left: 6rem;
-  text-align: center;
-  margin-bottom: 5rem;
-  background-color: aliceblue;
+width: 300PX;
+height: 250PX;
+margin-left: 6rem;
+text-align: center;
+margin-bottom: 5rem;
+background-color: aliceblue;
 }
 
 @media screen and (min-width: 728px){
-  body .iframe{
-    margin-left: 37rem;
-    width: 728PX;
-    height: 90PX;
-   
-   
-  }
+body .iframe{
+  margin-left: 20rem;
+  width: 728PX;
+  height: 90PX;
+ 
+ 
+}
 }
