@@ -59,6 +59,11 @@ body main .caja-slider .slide{
     text-align: center;
     margin: 1rem;
   }
+  body main .caja-boton{
+    display: flex;
+    text-align: center;
+    margin-left: 9rem;
+  }
   body main section div div img {
     width: 24REM;
     height: 24REM;
@@ -82,8 +87,7 @@ body main .caja-slider .slide{
 }
 
 body main section div div div button{
-  display: flex;
-  margin-left: 12rem;
+  text-align: center;
 }
 body main section div div div button .boton {
     font-style: none;
@@ -92,6 +96,8 @@ body main section div div div button .boton {
     background-color: #0F5D33;
     padding: 0.6rem;
     font-size: 1rem;
+    text-align: center;
+    justify-items: center;
 
   }
 
@@ -121,7 +127,7 @@ body main section div div div button .boton {
       color: #623A26;
     text-align: center; }
 
-    body section h3{
+    body form h3{
       display: flex;
       text-align: center;
       font-family: 'Shrikhand', cursive;
@@ -158,7 +164,7 @@ body main section div div div button .boton {
     background-color: #0F5D33;
     padding: 0.6rem;
     font-size: 1rem;
-    margin-left: 12rem;
+    margin-left: 11rem;
     margin-bottom: 4rem;
     margin-top: 2rem;
      }
@@ -194,10 +200,15 @@ body main section div div div button .boton {
               display: none;
             }
             body main .titulo-principal {
-              font-size: 4rem; }
+              font-size: 5rem; }
             body main .contenedor-main {
               margin-top: 4rem; }
+              body main .contenedor-main .caja img{
+                width: 35rem;
+                height: 35rem;
+              }
               body main .contenedor-main .caja {
+
                 margin: 0rem 7rem 0rem;
                 display: grid;
                 gap: 7rem;
@@ -207,17 +218,22 @@ body main section div div div button .boton {
                 body main .contenedor-main .caja div {
                   margin-top: 1rem; }
                 body main .contenedor-main .caja .contenedor-texto .titulo-secundario {
-                  font-size: 2.7rem; }
+                  font-size: 4rem; }
                 body main .contenedor-main .caja .contenedor-texto .texto-principal {
-                  font-size: 1.5rem; }
+                  font-size: 2rem; }
                 body main .contenedor-main .caja .contenedor-texto button {
-                  margin-left: 9rem;
-                  padding: 0.2rem;
+                  margin-left: 6rem;
+                  padding: 0.4rem;
                   background-color: #0F5D33;
+                  font-size: 2rem;
+                  margin-top: 2rem;
+                  margin-bottom: 2rem;
+                  align-items: center;
                  }
                 body main .contenedor-main .caja .contenedor-texto p {
                   text-align: center;
-                  margin-bottom: 2rem; }
+                  margin-bottom: 2rem; 
+                font-size: 1.8rem;}
               body main .contenedor-main div .populares {
                 text-align: center;
                 margin-top: 9rem;
@@ -237,12 +253,15 @@ body main section div div div button .boton {
                     margin-bottom: 1rem;
                   margin-left: 1rem; }
                 
-                  body main section h3{
-                    margin-left: 35rem;
-                  }
+                 
                   body form{
                     text-align: center;
+
                     
+                   }
+                   body form h3{
+                    margin-left: 44rem;
+                    font-size: 3rem;
                    }
                    body form div button{
                     margin-left: 0rem;
@@ -275,10 +294,12 @@ body main section div div div button .boton {
                     justify-content: center; }
                     body main div .contenedor-shop .ftoshop {
                       width: 75vw;
-                      height: 55vh;
+                      height: 50vh;
                       justify-content: center;
                       margin-left: 4rem;
-                      margin-top: 1rem; }
+                      margin-top: 1rem;
+                    margin-bottom: 0.5rem; }
+                      
                     body main div .contenedor-shop .descripcion-producto {
                       text-align: center;
                       font-size: 1.3rem;
@@ -357,7 +378,7 @@ body main section div div div button .boton {
                           }
                           .body-sobre-nosotros main .sobre-nosotros {
                             text-align: center;
-                            font-size: 2rem; }
+                            font-size: 9rem; }
                           
                             .body-sobre-nosotros main div div .logo {
                               grid-area: logo;
@@ -370,7 +391,7 @@ body main section div div div button .boton {
                           justify-content: center;}
                             .body-sobre-nosotros main div div .historia {
                               
-                          margin: 2rem;
+                          margin-right: 9rem;
                           text-align: justify;
                           color: whitesmoke;
                           background-color: #6d3f2b;
@@ -437,12 +458,13 @@ body main section div div .img-carrito{
   width: 80%;
 }
 
-body main section div div p{
+body main section .div-carrito div p{
   font-size: 1rem;
   text-align: justify;
   margin-left: 3rem;
   margin-top: 1rem;
   margin-right: 3rem;
+  text-decoration: underline;
   
 
 }
@@ -452,7 +474,8 @@ body main section div div .eliminar{
   font-size: 1rem;
   font-style: italic;
   padding: 0.2rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-top: 0.3rem;
 }
 
 body main .boton-compra{
@@ -460,7 +483,8 @@ body main .boton-compra{
   font-size: 1.5rem;
   color: #F3DFC1;
   padding: 0.4rem;
-  margin-left: 10rem;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 1200px){
@@ -512,7 +536,7 @@ body .iframe{
 display: block;
   width: 300PX;
   height: 250PX;
-  margin-left: 8rem;
+  margin-left: 6rem;
   text-align: center;
   margin-bottom: 5rem;
   background-color: aliceblue;
@@ -520,7 +544,7 @@ display: block;
 
 @media screen and (min-width: 728px){
   body .iframe{
-    margin-left: 22rem;
+    margin-left: 37rem;
     width: 728PX;
     height: 90PX;
    
