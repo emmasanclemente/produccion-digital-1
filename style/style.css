@@ -13,8 +13,8 @@ body {
 body header nav{
   background-color: #0F5D33;
   color: #F3DFC1;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.5rem;
+  padding: 2rem;
   position: sticky;
 
 }
@@ -35,8 +35,8 @@ body header nav div {
           display: flex;
           font-style: none;
           color: #F3DFC1;
-          margin-left: 1.5rem;
-          margin-right: 1.5rem;
+         
+          margin-right: 1rem;
           }
 body main .caja-slider{
 display: none;
@@ -294,7 +294,7 @@ body main section div div div button .boton {
                   justify-content: center; }
                   body main div .contenedor-shop .ftoshop {
                     width: 75vw;
-                    height: 50vh;
+                    height: 40vh;
                     justify-content: center;
                     margin-left: 4rem;
                     margin-top: 1rem;
