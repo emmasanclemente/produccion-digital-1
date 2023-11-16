@@ -188,10 +188,13 @@ body main section div div div button .boton {
       body footer div p {
         text-align: center;
         padding-bottom: 2rem;
+        text-decoration: none;
+        color: #F3DFC1;
      }
      body footer a{
       font-size: 2rem;
       color: #F3DFC1;
+      text-decoration: none;
      }
 
      
@@ -413,7 +416,17 @@ margin: 1rem; }
                              }
                           .body-sobre-nosotros main div div img {
                             margin-left: 1rem;
-                            height: 60vh; } }
+                            height: 60vh; } 
+                          
+                          
+    .rollover {
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .rollover:hover {
+      transform: scale(1.1);
+    }}
 
 
 @media screen and (min-width: 1200px) {
@@ -537,52 +550,41 @@ body main section div div .eliminar{
 }
 }
 
+   
 /* estilo iframe*/
+.div-section{
+  width: 100%;
+}
+body .caja-publicidad{
+ 
 
-body .iframe{
-display: flex;
-width: 300PX;
-height: 250PX;
-text-align: center;
-text-align: center;
-margin-bottom: 5rem;
-justify-content: center;
-justify-self: center;
-background-color: aliceblue;
-} 
-body main .section-sobre-nosotros{
-  display: flex;
+width: 100%;
   text-align: center;
-  justify-content: center;
-  justify-self: center;
-}
-body main section .div-iframe{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  justify-items: center;
-  justify-items: center;
-}
-@media screen and (min-width: 730px){
-  body main .section-sobre-nosotros{
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
-    max-width: 728px;
-    max-height: 90px;
-  }
-  body main section .div-iframe{
-    max-width: 728px;
-    max-height: 90px;
-  }
   
-  body main .div-section{
-    max-width: 728px;
-    max-height: 90px;
-    display: flexbox;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-  }
+  margin: 1REM 0;
 }
+
+body .caja-publicidad .iframe{
+  justify-content: center;
+  background-color: aliceblue;
+  text-align: center;
+  height: 300px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 728px){
+
+body .caja-publicidad{
+  text-align: center;
+
+}
+
+body .caja-publicidad .iframe{
+  height: 90px;
+  width: 728px;
+  display: block;
+  margin: auto;
+}}
+
