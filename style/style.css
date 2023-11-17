@@ -60,9 +60,9 @@ body main h1{
   margin: 1rem;
 }
 body main .caja-boton{
-  display: flex;
+
   text-align: center;
-  margin-left: 9rem;
+
 }
 body main section div div img {
   width: 24REM;
@@ -94,7 +94,7 @@ body main section div div div button .boton {
   text-decoration: none;
   color: #F3DFC1;
   background-color: #0F5D33;
-  padding: 0.6rem;
+ 
   font-size: 1rem;
   text-align: center;
   justify-items: center;
@@ -166,7 +166,7 @@ body main section div div div button .boton {
   font-size: 1rem;
   margin-left: 11rem;
   margin-bottom: 4rem;
-  margin-top: 2rem;
+ 
    }
 
   body footer {
@@ -233,7 +233,7 @@ body main section div div div button .boton {
                 padding: 0.4rem;
                 background-color: #0F5D33;
                 font-size: 2rem;
-                margin-top: 2rem;
+                border-radius: 2rem;
                 margin-bottom: 2rem;
                 align-items: center;
                }
@@ -274,6 +274,24 @@ body main section div div div button .boton {
                   margin-left: 0rem;
                   
                  }}
+                 .mail{
+                  text-align: center;
+                  margin-bottom: 4rem;
+                 }
+                 .mail button{
+                  background-color: #0F5D33;
+                  color: #F3DFC1;
+                  font-size: 2rem;
+                  padding: 0.5rem;
+                  text-align: center;
+                  text-decoration: none;
+                  border-radius: 2rem;
+                 }
+
+                 .mail button a{
+                  text-decoration: none;
+                  color: #F3DFC1;
+                 }
 
 /* STYLE DE SHOP*/
 
